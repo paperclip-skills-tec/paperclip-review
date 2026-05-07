@@ -369,3 +369,7 @@ curl -sS -X POST "$PAPERCLIP_API_URL/api/issues/$PR_ISSUE_ID/comments" \
 - If no review agents are found, all review tasks fall back to the Dev Lead.
 - If a child review agent fails (issue stays `in_progress` past SLA), the dispatching agent should escalate to the Dev Lead.
 - If `git diff` fails (no execution workspace), post a comment asking the PR author to provide the branch name and changed file list manually.
+
+---
+
+*TEC Custom Skill — maintained by the Deltek Technical Services Engineering team.*
