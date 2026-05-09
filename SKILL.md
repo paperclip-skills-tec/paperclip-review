@@ -1,11 +1,6 @@
 ---
 name: paperclip-review
-description: >
-  Dispatch parallel multi-agent code review on a PR issue. Evaluates trigger
-  conditions (priority, file count, security relevance) and dispatches up to 5
-  specialised review sub-agents — Correctness, Quality, Architecture, Test
-  Coverage, and Security — then aggregates their findings into a single summary
-  comment. Use when an issue enters review and a structured code review is needed.
+description: "Dispatch parallel multi-agent code review on a PR issue. Evaluates trigger conditions (priority, file count, security relevance) and dispatches up to 5 specialised review sub-agents — Correctness, Quality, Architecture, Test Coverage, and Security — then aggregates their findings into a single summary comment. Use when an issue enters review and a structured code review is needed."
 ---
 
 # Paperclip Review — Multi-Agent Code Review Dispatch
